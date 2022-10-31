@@ -1,0 +1,85 @@
+body{
+	background-color: lightblue;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;	
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.top_bar{
+	font-size: 30px;
+	font-weight: 600;
+	color: White;
+	background-color: darkblue;
+	width: 100%;
+	padding: 20px;
+	text-align: center; 
+	
+}
+
+.fullbody{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.form-input{
+	border: 1px solid darkgrey;
+	outline: none;
+	padding: 10px 20px;
+	background-color: white;
+	margin-right: 20px;
+}
+
+.form-input:focus{
+background-color: whitesmoke;
+}
+
+.search{
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	background-color: darkblue;
+	margin-right: 20px;
+	color: white;
+}
+
+.searchbox{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:100px;
+}
+
+.movie-cards{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.card{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: rgb(24,51,59);
+	margin: 20px;
+	padding: 30px;
+	width: 700px;	
+}
+
+.movie-title{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 300px;
+	margin: 0px 200px;
+}
+
+.value{
+	font-size: 15px;
+	width: 200px;
+}
